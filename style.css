@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(to right, #d74e2b, #feb47b);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+h1 {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .number{
+    
+    font-family: "Black Ops One", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffdd57;
+    color: #333;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header button:hover {
+    background-color: #f4c542;
+    transform: scale(1.05);
+}
+
+input[type="number"] {
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button#checkBtn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button#checkBtn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+h3, h4 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+h4 span {
+    font-weight: bold;
+}
+header .guess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .number {
+    font-size: 2rem;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-left: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
